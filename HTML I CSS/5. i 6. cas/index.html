@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      body {
+        background-color: teal;
+      }
+      /* h1 predstavlja selektor,sto je zapravo pravilo pomocu kojeg pristupamo html elementu za koji zelimo da definisemo stilove*/
+      h1 {
+        /* color predstavlja css property (svojstvo) */
+        color: rgb(255, 0, 157);
+      }
+      p {
+        /* font size 16xp; standarna velicina slova je 16xp */
+        font-size: 16px;
+        text-indent: 40px;
+        /* text-align: left; defautalna vredonst */
+        text-align: right;
+        text-align: center;
+        /* primenice se poslednje definisano svojstvo */
+        text-align: justify;
+        text-align-last: right;
+        /* text-transform: uppercase; */
+        /* text-transform: capitalize; */
+        text-transform: lowercase;
+      }
+      ul {
+        list-style-position: inside;
+      }
+      .prvi {
+        background-color: yellowgreen;
+        width: 400px;
+        height: 400px;
+      }
+      #naslov {
+        color: orchid(255, 0, 0);
+      }
+      /* id ima prioritet u odnosu na klasu kada se radi o stilovima */
+      /* obicno cemo koristit id ako zelimo da definisemo neki jedinstveni elemnt. */
+      .naslov {
+        color: rgb(255, 0, 157);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- klasi prvi postupamo za prefiksom . u css_u -->
+    <div class="prvi">
+      <h1>Danas radimo CSS (Cascanding Style Sheets)</h1>
+      <!-- Jezik za definisanje sajtova na nasoj stranici -->
+      <!-- id_u "naslov" pristupamo za prefiksom # u css_u -->
+      <h2 id="naslov" class="naslov">
+        CSS mozemo primeniti na nekoliko nacina
+      </h2>
+      <ul>
+        <li style="color: teal; text-align: center">inline stilovi</li>
+        <li>Stilovi definisani unutar head taga</li>
+        <li>Eksterni stilovi</li>
+      </ul>
+    </div>
+    <div>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+        nemo in vel illum quaerat neque nihil maiores incidunt quod. Nobis
+        adipisci alias debitis laudantium iure. Temporibus, nam sit? Esse,
+        earum.
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+        voluptatem!
+      </p>
+      <p style="color: orchid">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim facilis ut
+        corrupti omnis amet placeat porro tempora illo voluptatum consequatur
+        cum recusandae iusto accusantium, quaerat deleniti eius id explicabo
+        iste totam? Laudantium, culpa iste ad voluptates at ab eligendi maxime.
+        Quasi, laudantium aperiam eveniet ipsa corporis reprehenderit assumenda
+        quod quis?
+      </p>
+    </div>
+  </body>
+</html>

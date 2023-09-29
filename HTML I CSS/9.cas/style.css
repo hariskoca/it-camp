@@ -1,0 +1,28 @@
+.main {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg);
+  /* background repeat repeat:defaultlmo vrednostrt*/
+  background-repeat: no-repeat;
+  /* backgroound size contain razvlaci foto do momenta dok ne stigne do prve ivice */
+  /* background-size: cover; razvlaci se foto kako bi prekrila kontejner  (gubi se deo foto) */
+  background-size: 300px 400px;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+
+.main h1,
+p {
+  color: azure;
+  text-align: center;
+}
+
+.main p {
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.main:nth-of-type(2) {
+  box-sizing: border-box;
+  padding: 15px;
+}
