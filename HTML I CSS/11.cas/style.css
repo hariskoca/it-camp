@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(250, 242, 215);
+  font-family: "Outfit", sans-serif;
+}
+
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+}
+
+.main p {
+  font-size: 20px;
+}
