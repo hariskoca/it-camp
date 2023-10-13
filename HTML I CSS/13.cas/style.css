@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  /* background-color: blue; */
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  /* background-color: coral; */
+  /* rgba cini nasu pozadinu prozirnom u odredjenoj meri- zavisi od a paramenta (0-1) */
+  background-color: coral;
+  opacity: 0.5;
+  width: 500px;
+  height: 500px;
+}
+img {
+  width: 900px;
+  height: 400px;
+  float: right;
+  margin-right: 15px;
+}
+
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  opacity: 0.5;
+  float: left;
+}
+
+.box2 {
+  width: 500px;
+  height: 700px;
+  background-color: rgb(138, 34, 150);
+  float: left;
+}
+
+.paragraf {
+  clear: both;
+}

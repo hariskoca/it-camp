@@ -1,0 +1,28 @@
+.box {
+  width: 150px;
+  height: 150px;
+  /* float: left; */
+  float: right;
+}
+
+.box1 {
+  background-color: yellowgreen;
+}
+.box2 {
+  background-color: red;
+}
+.box3 {
+  background-color: blue;
+}
+.box4 {
+  background-color: brown;
+}
+.box5 {
+  background-color: coral;
+}
+.box6 {
+  background-color: magenta;
+}
+.box7 {
+  background-color: orange;
+}
