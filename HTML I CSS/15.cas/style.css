@@ -7,7 +7,8 @@
   margin: 20px;
   padding-top: 15px;
   background-color: aquamarine;
-  height: 250px;
+  height: 200vh;
+  position: relative;
 }
 
 .child1 {
@@ -18,16 +19,22 @@
   /* top: 40px; */
   /* left: 10px; */
   position: absolute;
-  left: 100px;
+  right: 100px; /* dozvoljene su i negativne vrednosti */
   bottom: 50px;
 }
 .child2 {
   background-color: rgb(142, 42, 165);
   height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  z-index: 5;
 }
 .child3 {
   background-color: rgb(165, 157, 42);
   height: 50px;
+  position: sticky;
+  top: 20px;
 }
 .child4 {
   background-color: rgb(255, 18, 18);
