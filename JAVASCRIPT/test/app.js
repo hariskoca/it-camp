@@ -31,3 +31,14 @@ if (isNaN(nekiBroj)) {
 } else {
   console.log(nekiBroj ** 2);
 }
+
+//Fudbalski teren dimenzija dx5 treba odraditi pravougaonikom ogradom tkd je rastojanje  stranice ograde
+//od linije terena r.Napisi program koji odredjuje duzinu ograde.
+//Ulaz: u tri reda standarnog ulaza nalaze se tri jednaka broja
+// d-duzina terena u metrima
+// r-rastojanje ograde od terena u metrima
+// s-sirina terena u metrima
+
+const d = +prompt("Unesite duzinu terena:");
+const r = +prompt;("Unesite sirinu terena")
+const s = +prompt;("Unesite")

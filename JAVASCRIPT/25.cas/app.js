@@ -1,0 +1,1 @@
+function zamena(A, B) {}
